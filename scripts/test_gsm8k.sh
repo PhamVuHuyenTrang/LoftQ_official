@@ -1,3 +1,5 @@
+export CUDA_VISIBLE_DEVICES="0"
+export PYTHONPATH="."
 # test 4-bit 64-rank llama-2-7b with LoftQ on GSM8K using one A100
 python test_gsm8k.py \
   --model_name_or_path LoftQ/Llama-2-7b-hf-4bit-64rank \
